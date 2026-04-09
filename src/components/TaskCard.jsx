@@ -146,10 +146,7 @@ export default function TaskCard({
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  d={
-                    "M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.5" +
-                    "20.25a7.5 7.5 0 0115 0"
-                  }
+                  d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.5 20.25a7.5 7.5 0 0115 0"
                 />
               </svg>
               {task.assignee}
@@ -210,10 +207,7 @@ export default function TaskCard({
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
-              d={
-                "M16.862 3.487a2.25 2.25 0 113.182 3.182L7.5 19.213l-4.5 1.5" +
-                "1.5-4.5 12.362-12.226z"
-              }
+              d="M16.862 3.487a2.25 2.25 0 113.182 3.182L7.5 19.213l-4.5 1.5 1.5-4.5 12.362-12.226z"
             />
           </svg>
         </button>
