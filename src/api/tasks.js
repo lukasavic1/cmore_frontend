@@ -50,11 +50,6 @@ export async function getAllTasks({ status, search, per_page = 100, assignee, un
   return { data: all, meta: first?.meta }
 }
 
-export async function getTask(id) {
-  const { data } = await api.get(`/tasks/${id}`)
-  return data
-}
-
 export async function createTask(payload) {
   const { data } = await api.post('/tasks', payload)
   return data
